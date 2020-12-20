@@ -245,7 +245,7 @@ class CholeraeFinder(CGEFinder):
         pprint.pprint(data)
 
         # Save json genes output
-        result_file = "{}/data_CholeraeFinder.json".format(tmp_dir)
+        result_file = "{}/data_CholeraeFinder.json".format(outdir)
         with open(result_file, "w") as outfile:
             json.dump(data, outfile)
 
